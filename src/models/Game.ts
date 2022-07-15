@@ -172,7 +172,7 @@ const applyMove = (
 };
 
 export const init = (): Game => {
-  const queue = PieceQueue.create(5);
+  const queue = PieceQueue.create(1);
   const next = PieceQueue.getNext(queue);
   return {
     state: 'PLAYING',
